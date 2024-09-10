@@ -289,14 +289,6 @@ body {
   font-size: 1rem;
 }
 
-/* .landSubject .Satisfaction {
-  width: 390px;
-} */
-
-/* .landSubject .Shipping {
-  width: 225px;
-} */
-
 .landSubject .paragraph {
   margin-top: 70px;
 }
@@ -450,6 +442,12 @@ body {
 @media (min-width: 767px) and (max-width: 991px) {
   .menu .listItem ul {
     width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .menu .listItem ul li {
+    margin: 5px 10px;
   }
 }
 
