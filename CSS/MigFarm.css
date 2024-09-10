@@ -483,22 +483,12 @@ body {
   }
 }
 
-@media (max-width: 600px) {
-  .landSubject .brandItem .firstLogo::before {
-    margin-left: 15px;
+@media (max-width: 992px) {
+  .landSubject .brandItem .employeeLogo::before{
+    display: none;
   }
 }
 
-@media (min-width: 600px) and (max-width: 767px) {
-  .landSubject .brandItem .firstLogo::before {
-    left: 85px;
-  }
-}
-@media (min-width: 767px) and (max-width: 991px) {
-  .landSubject .brandItem .firstLogo::before {
-    left: 130px;
-  }
-}
 @media (min-width: 600px) and (max-width: 767px) {
   .landSubject .brandItem .firstLogo {
     margin-bottom: 50px;
